@@ -17,13 +17,10 @@ header {
 header nav a {
   margin-right: 15px;
   text-decoration: none;
+  color:white;
 }
 
-/* unvisited link */
-header nav a:link {
-  color:white;
-  
-}
+
 
 /* mouse over link */
 header nav a:hover {
