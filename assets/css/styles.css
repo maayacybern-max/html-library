@@ -1,0 +1,237 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #22223b;
+}
+
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #22223b;
+  color: white;
+  padding: 10px 20px;
+  height: 100px;
+}
+
+header nav a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+/* unvisited link */
+header nav a:link {
+  color:white;
+  
+}
+
+/* mouse over link */
+header nav a:hover {
+  color: orange;
+}
+
+/* selected link */
+header nav a:active {
+  color: orangered;
+}
+
+header nav a[aria-current="page"] {
+  font-size: x-large;
+}
+
+
+/* Main content area */
+main {
+  background-color: white;
+
+  width: 100%;
+
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+/* Footer */
+footer {
+  background-color: #22223b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 0px;
+
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color:  #4a4e69;
+  text-align: left;
+}
+
+td{
+  background-color: white;
+  color: black;
+}
+
+
+
+#index-intro {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)),
+    url("../books images/BooksImageIndex.jpg");
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  padding-top: 200px;
+  padding-bottom: 40px;
+  
+
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+
+  text-align: center;
+}
+
+#books-intro {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)),
+    url("../books images/BooksImageView.jpg");
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  padding: 100px;
+  padding-top: 150px;
+
+
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+
+  
+}
+
+#about-intro {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../books images/BooksImageAbout.jpg");
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  padding: 50px;
+  padding-top: 150px;
+
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+
+  
+}
+
+
+#add-book-intro {
+  background-image: 
+    linear-gradient(rgba(0,0,150,0.3), rgba(0,0,0,0.6)),
+    url("../books images/BooksImageAdd.jpg");
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  padding: 50px;
+  padding-top: 150px;
+
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+
+}
+
+#edit-book-intro {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+    url("../books images/BooksImageEdit.jpg");
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  padding: 50px;
+  padding-top: 150px;
+
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+
+  
+}
+
+
+#pages-links-index ul{
+  
+
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+  gap: 5vh;
+  padding: 10px 5vh;
+
+  justify-content: center; 
+}
+
+#pages-links-index li{
+  background-color: rgba(0,0,150,0.3);
+
+  border-radius: 25px;
+  text-align: center;
+
+  padding: 10px;
+}
+
+#pages-links-index a{
+  margin-right: 15px;
+  text-decoration:none;
+}
+
+/* unvisited link */
+#pages-links-index a:link {
+  color:white;
+  
+}
+
+/* mouse over link */
+#pages-links-index a:hover {
+  color: lightskyblue;
+}
+
+/* selected link */
+#pages-links-index a:active {
+  color: blue;
+}
+
+input{
+  width: 20vh;
+}
+
