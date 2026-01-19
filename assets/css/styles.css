@@ -210,13 +210,10 @@ td{
 #pages-links-index a{
   margin-right: 15px;
   text-decoration:none;
+  color:white;
 }
 
-/* unvisited link */
-#pages-links-index a:link {
-  color:white;
-  
-}
+
 
 /* mouse over link */
 #pages-links-index a:hover {
